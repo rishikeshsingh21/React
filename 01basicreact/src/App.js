@@ -1,6 +1,9 @@
+import Chai from "./chai";
+
 function App() {
   return (
     <>
+      <Chai />
       <h1>Hello React | Rishikesh Singh </h1>
       <p>
         Learn about how to create the react and project through react and vite{" "}
