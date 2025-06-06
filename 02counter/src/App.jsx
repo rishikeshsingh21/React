@@ -3,16 +3,24 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
+// react hooks are used to control the ui updation 
 
-  let [counter,setCounter] = useState(0)
+  let [counter,setCounter] = useState(5)   ///  this is the react hooks that comes in picture when UI updation comes in picture 
+   /// useState(defaultValue of any dataType like object array)  ==from this hook we get a itterator and the method
+
   // let counter = 0;
   function increment(){
     if(counter < 20){
-      setCounter(counter +1 );
-      setCounter(counter +1 );
-      setCounter(counter +1 );
-      setCounter(counter +1 );
-      setCounter(counter +1 );
+      // setCounter(counter +1 );
+      // setCounter(counter +1 );
+      // setCounter(counter +1 );
+      // setCounter(counter +1 );
+      // setCounter(counter +1 );
+      setCounter(prevCounter => prevCounter+1 );
+      setCounter(prevCounter => prevCounter+1 );
+      setCounter(prevCounter => prevCounter+1 );
+      setCounter(prevCounter => prevCounter+1 );
+      setCounter(prevCounter => prevCounter+1 );
     }
     
     // console.log(counter);

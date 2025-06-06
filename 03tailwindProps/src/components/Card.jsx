@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card({channel="MyName",btnText ="Visit Profile"}) {  // rfce (react functional component) get defautl props which is destucture instant
+function Card({channel="MyName",btnText ="Visit Profile"}) {  // rfce (react functional component) get defautl props which is destucture instant which is passed from the rendering site  with the default value if the value is not pass
   // console.log(props)
   // let userName = props.channel;
   // console.log(props.channel);
@@ -14,7 +14,8 @@ function Card({channel="MyName",btnText ="Visit Profile"}) {  // rfce (react fun
       />
       <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
       <div class="absolute bottom-4 left-4 text-left">
-        <h1 class="text-lg font-semibold text-white">{channel }</h1>
+        <h1 class="text-lg font-semibold text-white">{channel}</h1>  {////here use the destucture value on the same componet with diffent values or date 
+        }
         <p class="mt-2 text-sm text-gray-300">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, obcaecati.</p>
         <button class="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">{btnText}</button>
       </div>

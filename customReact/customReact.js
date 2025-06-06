@@ -34,4 +34,5 @@ const reactElement = {
 
 const mainContainer = document.querySelector('#root')
 
+//keya inject karo kaha pe inject karo
 customRender(reactElement,mainContainer)
