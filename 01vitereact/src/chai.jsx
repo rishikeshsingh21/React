@@ -1,6 +1,7 @@
 function Chai(){
+    const username = 'Rishikesh'
     return(
-        <h3>chai is ready</h3>
+        <h3>chai is ready {username}</h3>
     )
 }
 
