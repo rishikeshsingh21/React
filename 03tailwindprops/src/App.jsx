@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <div>
-        <h1  className="bg-sky-500/100 text-black p-4 rounded-xl">Tailwind Configuration And Testing Tailwind Integration</h1>
+        <h1  className="bg-sky-500 text-black p-4 rounded-xl">Tailwind Configuration And Testing Tailwind Integration</h1>
       </div>
       <Card userName = "Rishikesh" myObj = {propsObj} cgpa = {9.6}/>
       <Card userName = "Pratham" myArr = {propsArr} cgpa = {9.4}/>
