@@ -13,6 +13,10 @@ function App() {
       // console.log(counter)
       // setCounter(counter = counter + 1)
       // console.log("increment called")
+      setCounter(counter + 1)
+      setCounter(counter + 1)
+      setCounter(counter + 1)
+      setCounter(counter + 1)
       setCounter(prev => prev + 1)
     }
     function Decrement(){
